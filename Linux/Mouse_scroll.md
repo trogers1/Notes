@@ -16,4 +16,4 @@ EndSection
 
 That should do it. The idea being that you switched the `4 5` to `5 4`. If you want to switch horizontal scroll, I belive you flip `6 7`, but not sure.
 
-Then restart X or restart the OS.
+Then [restart X](restartX.md) or restart the OS.
