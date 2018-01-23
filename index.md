@@ -1,4 +1,4 @@
-{{ site.data.navigation}}
+{% include navigation.html %}
 
 # Notes #
 
