@@ -3,11 +3,11 @@
 - title: Home
   url: /
 
-- title: Group of Things
-  url: /group/
+- title: Linux
+  url: /Linux/
   sublinks:
-    - title: Sub-item 1
-      url: /group/si1
-    - title: Sub-item 2
-      url: /group/si2
-    - title: Sub-item 3
+    - title: Mouse Scroll Direction
+      url: /Linux/Mouse_scroll.md
+    - title: Restart X (GUI) Session
+      url: /Linux/restartX.md
+
