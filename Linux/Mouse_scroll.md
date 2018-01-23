@@ -6,12 +6,14 @@ I did, however, find that _40-libinput.conf_ had the "MatchIsPointer" notation. 
 
 <pre>
 Section "InputClass"
-        Identifier "evdev pointer catchall"
+        Identifier "libinput pointer catchall"
         MatchIsPointer "on"
         MatchDevicePath "/dev/input/event*"
         <b>Option "ButtonMapping" "1 2 3 5 4 6 7 8"</b>
-        Driver "evdev"
+        Driver "libinput"
 EndSection
 </pre>
 
-That should do it.
+That should do it. The idea being that you switched the `4 5` to `5 4`. If you want to switch horizontal scroll, I belive you flip `6 7`, but not sure.
+
+Then restart X or restart the OS.
