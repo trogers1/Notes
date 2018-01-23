@@ -4,7 +4,7 @@ According to <a href="http://unixnme.blogspot.com/2016/10/how-to-reverse-mouse-s
 
 I did, however, find that __40-libinput.conf__ had the "MatchIsPointer" notation. From that file, in that section with "MatchIsPointer", you can the following line:
 
-'''
+```
 Section "InputClass"
         Identifier "evdev pointer catchall"
         MatchIsPointer "on"
@@ -12,6 +12,6 @@ Section "InputClass"
         `Option "ButtonMapping" "1 2 3 5 4 6 7 8"`
         Driver "evdev"
 EndSection
-'''
+```
 
 That should do it.
