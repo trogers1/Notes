@@ -1,3 +1,5 @@
+{{ site.data.navigation}}
+
 # Notes #
 
 ##### This is a site for compiling notes and things I've learned and don't want to lose or forget. #####
