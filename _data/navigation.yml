@@ -4,10 +4,10 @@
   url: /
 
 - title: Linux
-  url: /Linux/
+  url: /linux.html
   sublinks:
     - title: Mouse Scroll Direction
-      url: /Linux/Mouse_scroll.md
+      url: /Linux/Mouse_scroll.html
     - title: Restart X (GUI) Session
-      url: /Linux/restartX.md
+      url: /Linux/restartX.html
 
