@@ -1,5 +1,7 @@
 # Restarting X session (GNOME 3) #
 
+This covers restarting the GNOME 3 GUI if making changes and not wanted to completely logout/shutdown your computer.
+
 From [this Stack Exchange answer](https://unix.stackexchange.com/a/87195), press `Ctrl` `Alt` and `F3` to start the virtual terminal.
 
 Login at the prompt (entering your system username first).
