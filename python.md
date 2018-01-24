@@ -4,7 +4,7 @@
 
 Linting |
 ------ |
-[Linting with Atom](/python/linting_atom.html) |
-[Linting with Command Line](/python/linting_cmdLine.html)  |
+[Linting with Atom](/python/lint_atom.md) |
+[Linting with Command Line](/python/lint_cmdLine.md)  |
 
 
