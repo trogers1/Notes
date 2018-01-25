@@ -9,3 +9,5 @@ Login at the prompt (entering your system username first).
 Then use command`sudo /etc/init.d/gdm3 restart` or `sudo service gdm3 restart`.
 
 Press `Ctrl` `Alt` and `F2` to end the virtual terminal.
+
+NOTE: I have not yet gotten this to work fully. I get get the virtual terminal to work, but restarting and returning to the GUI has not yet worked. It required a shutdown restore.
